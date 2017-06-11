@@ -5,23 +5,6 @@ public class Quarterback extends Athlete {
     private int jerseyNumber;
     private double completionPercent;
 
-    public int getJerseyNumber() {
-        return jerseyNumber;
-    }
-
-    public double getCompletionPercent() {
-        return completionPercent;
-    }
-
-    public void setJerseyNumber(int jerseyNumber) {
-        this.jerseyNumber = jerseyNumber;
-    }
-
-    public void setCompletionPercent(double completionPercent) {
-        this.completionPercent = completionPercent;
-    }
-
-
         /*
         This constructor method acce@ts 4 parameters
         * @param name is the athlete's name
@@ -30,10 +13,17 @@ public class Quarterback extends Athlete {
         * @param completion is the completion percentage pf the player
          */
         //Define the constructor method here
+
+    public Quarterback(String name, String sport, int jerseyNumber,double completionPercent) {
+        super(name,sport);
+        this.jerseyNumber = jerseyNumber;
+        this.completionPercent = completionPercent;
     }
+
 
     public int determinePoints(String scoreType, int scoreParm){
         // implementation
+        return scoreParm;
     }
-    //instance
+
 }

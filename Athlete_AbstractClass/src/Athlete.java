@@ -38,9 +38,11 @@ public abstract class Athlete {
         //partA
         int score = 0;
 
-        score += 1;
+        score += points;
+
         if(score < 0){
             score = 0;
+            score = points;
         }
 
         return;

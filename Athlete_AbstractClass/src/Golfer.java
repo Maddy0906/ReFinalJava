@@ -2,6 +2,13 @@
  * Created by madoka on 2017/06/07.
  */
 public class Golfer extends Athlete{
+    private int stroke;
+
+    public Golfer(String name, String sport, int stroke){
+        super(name,sport);
+        this.stroke = stroke;
+    }
+
     /**
      * returns the number of strokes by using the score type and adding or
      * deducting strokes from par(second parameter) according to the following:
@@ -18,6 +25,28 @@ public class Golfer extends Athlete{
     public int determinePoints(String scoreType, int par){
         //to be implemented in part c
 
+        switch (scoreType){
+            case "eagle":
+                stroke = par -2;
+                break;
+            case "birdie":
+                stroke = par - 1;
+                break;
+            case "par":
+                stroke = par + 0;
+                break;
+            case "bogey":
+                stroke = par + 1;
+                break;
+            case "double bogey":
+                stroke = par + 2;
+                break;
+            case "triple bogey":
+                stroke = par + 3;
+                break;
+        }
+
+        return stroke;
     }
 
     //instance variables, constructors, and other methods not shown

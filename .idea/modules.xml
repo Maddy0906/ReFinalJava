@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Athlete_AbstractClass/Athlete_AbstractClass.iml" filepath="$PROJECT_DIR$/Athlete_AbstractClass/Athlete_AbstractClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/ChefCertification/ChefCertification.iml" filepath="$PROJECT_DIR$/ChefCertification/ChefCertification.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReFinalJava.iml" filepath="$PROJECT_DIR$/ReFinalJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RoomInterface/RoomInterface.iml" filepath="$PROJECT_DIR$/RoomInterface/RoomInterface.iml" />
     </modules>
   </component>
 </project>

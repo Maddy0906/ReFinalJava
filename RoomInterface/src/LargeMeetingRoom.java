@@ -1,12 +1,10 @@
-package RoomInterface;
-
 import java.util.List;
 
 /**
  * Created by madoka on 2017/06/07.
  */
-public class LargeMeetingRoom implements Room {
-    private List<Room> rooms; //list of rooms combined to create this large meeting
+public class LargeMeetingRoom implements RoomInterface.Room {
+    private List<RoomInterface.Room> rooms; //list of rooms combined to create this large meeting
 
     /**
      * returns the total number of floor-based electrical oulets
