@@ -62,6 +62,7 @@ public class Chef {
     //Part B
     public boolean mealMasterChef(Meal mealCombo) {
 
+        //get Food
         Food[] foods = mealCombo.getFoods();
         ArrayList<String> results = new ArrayList<>();
 
@@ -70,7 +71,7 @@ public class Chef {
 
             Food food = foods[j];
 
-            //add to  certification
+            //get to  certification
             String c = foodCertification(food.getFoodType(), food.getFoodDesc());
 
             //add foodCertification result to List

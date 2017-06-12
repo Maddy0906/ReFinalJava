@@ -22,7 +22,6 @@ public class Quarterback extends Athlete {
 
 
     public int determinePoints(String scoreType, int scoreParm){
-        // implementation
         return scoreParm;
     }
 
